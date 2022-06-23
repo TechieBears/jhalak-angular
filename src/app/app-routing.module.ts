@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './dashbord/home/home.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { UserComponent } from './user/user.component';
+import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login-register/login/login.component';
+import { RegisterComponent } from './pages/login-register/register/register.component';
+import { UserComponent } from './pages/login-register/user/user.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'user', pathMatch: 'full' },
