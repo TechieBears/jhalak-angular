@@ -17,13 +17,13 @@ export class RegisterComponent implements OnInit {
     name: ['',Validators.required],
     email: ['',Validators.required],
     password: ['',Validators.required],
-    confirmPassword: ['',Validators.required],  
+    cpassword: ['',Validators.required],  
     city:['',Validators.required],
     contact:['',Validators.required],
     });
 
   }
   register() {
-
+      console.log(this.registerForm.value)
   }
 }
