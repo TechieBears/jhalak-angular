@@ -11,6 +11,8 @@ import { UserComponent } from './user/user.component';
 import { HomeComponent } from './pages/home/home.component';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AstrologyComponent } from './pages/astrology-pages/astrology/astrology.component';
+import { CarouselComponent } from './common-pages/carousel/carousel.component';
   
 @NgModule({
   declarations: [
@@ -21,6 +23,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     TopnavComponent,
     FooterComponent,
     HomeComponent,
+    AstrologyComponent,
+    CarouselComponent,
+    
      
    ],
   imports: [
