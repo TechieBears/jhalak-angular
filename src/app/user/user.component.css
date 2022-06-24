@@ -1,1 +1,22 @@
+ /* You can add global styles to this file, and also import other style files */
+.jhk-bg-primary{
+    background: #ec1b54 !important;
+    color:#fff;
+}
+
+.jhk-primary{
+    color: #ec1b54 !important;  
+}
+
+.jhk-bg-secondary, .container-fluid
+{
+    background-color: #dfdfdf;
+}
+
+/* @media all and (min-width: 50px)   {  body  { font-size:0.1em;  } }
+@media all and (min-width: 100px)  {  body  { font-size:0.2em;  } }
+@media all and (min-width: 200px)  {  body  { font-size:0.4em;  } }
+@media all and (min-width: 300px)  {  body  { font-size:0.6em;  } }
+@media all and (min-width: 400px)  {  body  { font-size:0.8em;  } }
+@media all and (min-width: 500px)  {  body  { font-size:1.0em;  } } */
  
