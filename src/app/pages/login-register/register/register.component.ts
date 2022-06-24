@@ -26,7 +26,6 @@ export class RegisterComponent implements OnInit {
   }
   register() {
     this.registerservice.register(this.registerForm.value).subscribe(data=>{
-
       console.log(data);
     })
 
