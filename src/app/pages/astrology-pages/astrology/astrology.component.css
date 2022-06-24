@@ -5,6 +5,7 @@
 .view-all-btn a{
     text-decoration: none;
     color: #000;
+    font-weight: 600;
 }
 .view-all-btn a:hover{
     text-decoration: underline;
@@ -23,10 +24,108 @@
     color: #fff;
     text-shadow: 0px 1px 3px rgb(122, 160, 60);
 }
+.ratings i:hover{
+    color: #FFC601;
+}
+.description-box .head a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.description-box .head a:hover{
+    text-decoration: underline;
+    color: #ec1b54;
+    transition: all 0.3s ease;
+}
+.social-icons ul {
+    list-style-type: none;
+}
+.social-icons ul li a{
+    color: #000;
+}
+.social-icons ul li{
+    border: 1px solid rgb(209 209 209);
+}
+.social-icons ul li:hover, .social-icons ul li:hover a{
+    background-color: #ec1b54;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+h5{
+    font-size: 1rem;
+}
+.main-images{
+    overflow: hidden;
+}
+.main-images img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+.main-images img{
+    transition: transform 1s;
+}
 
-
-
-
+/* Business Directory css */
+.bd-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 175px;
+}
+.bd-img {
+    position: relative;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 30%;
+    transition: .5s ease;
+  }
+  
+  .bd-img:hover .overlay {
+    height: 100%;
+  }
+  .card-body .head a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .card-body .head a:hover{
+    text-decoration: underline;
+    color: #ec1b54;
+    transition: all 0.3s ease;
+  }
+.verified-sec a{
+    color:#42BD4D;
+    text-decoration: none;
+}
+.verified-sec a:hover{
+    text-decoration: underline;
+}
+.verified-sec i{
+    color:#42BD4D;
+}
+.iconify{
+    color: #DDC365;
+}
+.website a{
+    text-decoration: none;
+}
+.website a:hover{
+    text-decoration: underline;
+}
 
 
 

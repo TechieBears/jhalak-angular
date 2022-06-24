@@ -25,6 +25,10 @@
     background: #EC1B54;
     border-radius: 7px;
 }
+.btns:hover {
+    background-color: #A30933 !important;
+    transition: ease-in-out 0.3s;
+}
 
 .btns a {
     color: #fff;
