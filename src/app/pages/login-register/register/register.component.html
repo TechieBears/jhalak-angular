@@ -22,7 +22,7 @@
                                                 *ngIf="registerForm.controls['name'].touched && registerForm.controls['name'].invalid">
                                                 <div
                                                     *ngIf="registerForm.controls['name'].errors && registerForm.controls['name'].hasError('required')">
-                                                    <span class="error-msg ">name is required</span>
+                                                    <span class="error-msg ">Name is required</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -58,7 +58,7 @@
                                                 *ngIf="registerForm.controls['password'].touched && registerForm.controls['password'].invalid">
                                                 <div
                                                     *ngIf="registerForm.controls['password'].errors && registerForm.controls['password'].hasError('required')">
-                                                    <span class="error-msg ">password is required</span>
+                                                    <span class="error-msg ">Password is required</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -76,7 +76,7 @@
                                                 *ngIf="registerForm.controls['cpassword'].touched && registerForm.controls['cpassword'].invalid">
                                                 <div
                                                     *ngIf="registerForm.controls['cpassword'].errors && registerForm.controls['cpassword'].hasError('required')">
-                                                    <span class="error-msg ">cpassword is required</span>
+                                                    <span class="error-msg ">Password must match</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -114,7 +114,7 @@
                                                 *ngIf="registerForm.controls['contact'].touched && registerForm.controls['contact'].invalid">
                                                 <div
                                                     *ngIf="registerForm.controls['contact'].errors && registerForm.controls['contact'].hasError('required')">
-                                                    <span class="error-msg ">Contact is required</span>
+                                                    <span class="error-msg">Contact is required</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -136,7 +136,7 @@
 
                                     </div>
                                     <div class="col-md-12 d-flex justify-content-between ">
-                                        <button type="submit" class="btn jhk-bg-primary  col-5">Create Account</button>
+                                        <button type="submit" class="btn jhk-bg-primary  col-5" [disabled]="!registerForm.valid">Create Account</button>
                                         <button type="reset" class="btn jhk-bg-secondary  col-5">Cancel</button>
                                     </div>
                                 </div>
